@@ -1,0 +1,145 @@
+﻿
+@font-face {
+    font-family: 'cac_champagneregular';
+    src: url('police/cac_champagne-webfont.eot');
+    src: url('police/cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/cac_champagne-webfont.woff') format('woff'),
+         url('police/cac_champagne-webfont.ttf') format('truetype'),
+         url('police/cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+}
+body
+{
+	background-image: url("img/fond.jpg");
+	
+}
+
+#bloc_page
+{
+	display: flex;
+	flex-direction: row;
+	min-width: 400px;
+}
+
+.bloc_cv
+{
+	
+	flex: 10;
+}
+
+.lisere
+{
+flex: 1;
+background: url('img/25.jpg') repeat-x;
+}
+
+header
+{
+background-image: url('img/moi_mini.jpg');
+background-repeat: no-repeat;
+background-position: top right; 
+}
+
+
+section
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#experience
+{
+	width: 33%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#competence
+{
+	width: 33%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#formation
+{
+	width: 33%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 
+{
+    font-family: 'cac_champagneregular', Arial, serif;
+	font-size: 2.5em;
+	font-weight: bold;
+	color: maroon;
+	text-align: center;
+	background-image: url("img/fond.jpg");
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 8px 0px 8px;
+	
+}
+.description
+{
+	text-align: center;
+	border: 1px black solid;
+	box-shadow: 2px 2px 4px black;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.5em;
+	text-shadow: 2px 2px 4px black;
+	box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+}
+
+.photo
+{
+	margin-top:%;
+}
+
+h2
+{
+	font-style: italic;
+	border: 1px black solid;
+	text-shadow: 2px 2px 4px black;
+	text-align: center;
+	box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+	background-image: url("img/fond.jpg");
+}
+
+
+/* Nouvelles règles si la fenêtre fait au plus 900px de large */
+@media all and (max-width: 900px)
+{
+	.lisere
+	{
+		display: none;
+	}
+	
+	
+	section
+	{
+
+		flex-direction: column;
+	}
+	
+	#experience
+{
+	width: 100%;
+}
+
+#competence
+{
+	width: 100%;
+}
+
+#formation
+{
+	width: 100%;
+}
+	
+}
