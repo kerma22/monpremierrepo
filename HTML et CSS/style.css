@@ -112,8 +112,8 @@ h2
 }
 
 
-/* Nouvelles règles si la fenêtre fait au plus 900px de large */
-@media all and (max-width: 900px)
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media all and (max-width: 1024px)
 {
 	.lisere
 	{
